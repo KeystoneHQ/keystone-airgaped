@@ -69,4 +69,6 @@ export enum SupportedResult {
   UR_COSMOS_SIGN_REQUEST = 'cosmos-sign-request',
   UR_COSMOS_SIGNATURE = 'cosmos-signature',
   UR_PSBT = "crypto-psbt",
+  UR_BTC_SIGN_REQUEST = 'btc-sign-request',
+  UR_BTC_SIGNATURE = 'btc-signature',
 }
