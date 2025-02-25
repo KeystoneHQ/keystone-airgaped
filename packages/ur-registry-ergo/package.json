@@ -1,0 +1,36 @@
+{
+  "name": "@keystonehq/bc-ur-registry-ergo",
+  "version": "0.1.0",
+  "description": "bc-ur-registry extension for Ergo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "jest --passWithNoTests"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keystonehq/bc-ur-registry": "^0.6.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/uuid": "^8.3.1",
+    "tsdx": "^0.14.1",
+    "typescript": "^4.6.2"
+  }
+}
